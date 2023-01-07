@@ -1,8 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity.meta
 guid: 3e2e4d7b0bed4cf9ab827e9f32448f69
 timeCreated: 1435300594
 licenseType: Store
+=======
+guid: c0a0a980c9ba86345bc15411db88d34f
+>>>>>>> refs/remotes/origin/main:Assets/AmplifyShaderEditor/Examples/Sample Resources.unitypackage.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

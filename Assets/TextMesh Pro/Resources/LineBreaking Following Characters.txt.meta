@@ -1,8 +1,20 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<<< HEAD:Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+=======
+>>>>>>> refs/remotes/origin/main
 guid: fade42e8bc714b018fac513c043d323b
 timeCreated: 1425440388
 licenseType: Store
 TextScriptImporter:
+<<<<<<< HEAD
+========
+guid: a9d68dd8913f05d4d9ce75e7b40c6044
+DefaultImporter:
+  externalObjects: {}
+>>>>>>>> refs/remotes/origin/main:Assets/AmplifyShaderEditor/Examples/URP Samples.unitypackage.meta
+=======
+>>>>>>> refs/remotes/origin/main
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -1,8 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity.meta
 guid: 349f38d3606449708c7340d26740e1e2
 timeCreated: 1434495347
 licenseType: Store
+=======
+guid: e00e6f90ab8233e46a41c5e33917c642
+>>>>>>> refs/remotes/origin/main:Assets/AmplifyShaderEditor/Examples/Built-In Samples.unitypackage.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

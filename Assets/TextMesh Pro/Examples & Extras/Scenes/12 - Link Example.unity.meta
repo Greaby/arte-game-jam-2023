@@ -1,8 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/TextMesh Pro/Examples & Extras/Scenes/12 - Link Example.unity.meta
 guid: 9747140c28254be2adc582210dfb89b8
 timeCreated: 1432629665
 licenseType: Store
+=======
+guid: d1c0b77896049554fa4b635531caf741
+>>>>>>> refs/remotes/origin/main:Assets/AmplifyShaderEditor/Examples/HDRP Samples.unitypackage.meta
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
