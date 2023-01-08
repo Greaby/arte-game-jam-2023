@@ -14,6 +14,10 @@ public class AudioManager : MonoBehaviour
     public StudioEventEmitter SEE_ButtonClick;
     public StudioEventEmitter SEE_Music;
     public StudioEventEmitter SEE_Pickup;
+    public StudioEventEmitter SEE_DialogueBodyParts;
+    public StudioEventEmitter SEE_DialogueDoor;
+    public StudioEventEmitter SEE_Lose;
+    public StudioEventEmitter SEE_Win;
 
     private void Awake()
     {
@@ -27,21 +31,50 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        
-    }
-
     public void PlayButtonClickSound()
     {
         SEE_ButtonClick.Play();
     }
+
     public void PlayMusic()
     {
         SEE_Music.Play();
     }
+    public void StopMusic()
+    {
+        SEE_Music.Stop();
+    }
+
     public void PlayPickupSound()
     {
         SEE_Pickup.Play();
+    }
+
+    public void PlayLoseSound()
+    {
+        SEE_Lose.Play();
+    }
+
+    public void PlayWinSound()
+    {
+        SEE_Win.Play();
+    }
+
+    public void PlayDialogBodyPartsSound()
+    {
+        SEE_DialogueBodyParts.Play();
+    }
+    public void StopDialogBodyPartsSound()
+    {
+        SEE_DialogueBodyParts.Stop();
+    }
+
+    public void PlayDialogDoorSound()
+    {
+        SEE_DialogueBodyParts.Play();
+    }
+    public void StopDialogDoorSound()
+    {
+        SEE_DialogueBodyParts.Stop();
     }
 }
