@@ -12,7 +12,9 @@ public class AudioManager : MonoBehaviour
     public static AudioManager Instance { get { return _instance; } }
     
     public StudioEventEmitter SEE_ButtonClick;
-    
+    public StudioEventEmitter SEE_Music;
+    public StudioEventEmitter SEE_Pickup;
+
     private void Awake()
     {
         if (_instance != null && _instance != this)
@@ -33,5 +35,13 @@ public class AudioManager : MonoBehaviour
     public void PlayButtonClickSound()
     {
         SEE_ButtonClick.Play();
+    }
+    public void PlayMusic()
+    {
+        SEE_Music.Play();
+    }
+    public void PlayPickupSound()
+    {
+        SEE_Pickup.Play();
     }
 }
