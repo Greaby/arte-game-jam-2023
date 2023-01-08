@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3231294295444309261}
   - component: {fileID: 6924825886054729886}
+  - component: {fileID: 1648562522593645611}
   m_Layer: 0
   m_Name: 3DSound
   m_TagString: Untagged
@@ -60,5 +61,18 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 1
-  OverrideMinDistance: 5.652375
-  OverrideMaxDistance: 5.652375
+  OverrideMinDistance: 4
+  OverrideMaxDistance: 4
+--- !u!114 &1648562522593645611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6939542706733605129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec51426c8bef96749b9248f6573c28cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AutoOverrideDistances: 1
