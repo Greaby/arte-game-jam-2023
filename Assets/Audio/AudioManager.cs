@@ -18,6 +18,7 @@ public class AudioManager : MonoBehaviour
     public StudioEventEmitter SEE_DialogueDoor;
     public StudioEventEmitter SEE_Lose;
     public StudioEventEmitter SEE_Win;
+    public StudioEventEmitter SEE_SwitchScene;
 
     private void Awake()
     {
@@ -76,5 +77,10 @@ public class AudioManager : MonoBehaviour
     public void StopDialogDoorSound()
     {
         SEE_DialogueBodyParts.Stop();
+    }
+
+    public void PlaySwitchSceneSound()
+    {
+        SEE_SwitchScene.Play();
     }
 }
